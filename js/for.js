@@ -21,9 +21,17 @@ console.log('sum ===', sum);
 
 // atspausdinti skaicius nuo 15 iki 55
 
+// atspausdinti skaicius nuo 100 iki 40 mazajancia tvarka
+
 // atspausdinti skaicius nuo -50 iki 300 kas trecia skaiciu
 
 // sudauginti skaicius nuo 60 iki 70
+
+// paimti skaicius nuo 2 iki 10 ir isvesti ju vidurki su for ciklo pagalba
+
+// paimti skaicius nuo 11 iki 22 ir atspausdinti kiekviena skaiciu padauginta is 2
+
+// paimti skaicius nuo 11 iki 22 ir atspausdinti kiekviena skaiciu padauginta is 2 ir prideta 7
 
 //       ↓  - pradinis/darbinis kintamasis - įvyksta tik vieną kartą.
 //       ↓
@@ -33,9 +41,8 @@ console.log('--------------- FOR CIKLAS ------------------');
 for (
   let i = 0;
   i < 10;
-  i++
-) //                       ↑ - žingsnis - vykdomas kiekvieną kart, kuomet pabaigiamas vykdyti ciklo vykdymo blokas
-{
+  i++ //                       ↑ - žingsnis - vykdomas kiekvieną kart, kuomet pabaigiamas vykdyti ciklo vykdymo blokas
+) {
   // → → → → → → Ciklo vykdymo bloko pradžia/atidarymas → → → → → → |
   console.log('i:', i); //                                          |
 } // → → → → → → Ciklo vykdymo bloko pabaiga/uždarymas  → → → → → → |
